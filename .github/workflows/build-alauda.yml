@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go-version: ['1.26.1']
+        go-version: ['1.26.2']
       fail-fast: true
     steps:
       - name: Checkout
